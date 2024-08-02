@@ -1,0 +1,118 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav div img {
+  max-width: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+
+ .profile-container {
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-container img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+         profile-container h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .profile-container .biodata-item {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .profile-container .biodata-item label {
+            font-weight: bold;
+            color: #555;
+        }
+        .profile-container .biodata-item span {
+            color: #777;
+        }
+        .profile-container .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile-container .contact a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .profile-container .contact a:hover {
+            background-color: #0056b3;
+        }
+        
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+        
+        
